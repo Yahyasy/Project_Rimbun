@@ -1,0 +1,31 @@
+flowchart TD
+    D0(["Defect ditemukan - discrepancy pilot atau temuan engineer"])
+    D1["Rujuk MEL terbitan Rimbun"]
+    DG1{"Boleh terbang dengan defect ini?"}
+    D2["Pesawat AOG - rektifikasi wajib"]
+    D3["Masuk DMI kategori A, B, atau C"]
+    D4["Timer berjalan - kategori C sepuluh hari"]
+    DG2{"Part tersedia?"}
+    D5["Cek status PO ke procurement"]
+    DG3{"Datang sebelum jatuh tempo?"}
+    D6["Extend - referensi wajib status PO"]
+    D7["Pinjam part dari operator lain - catat FH dan FC saat pasang"]
+    D8["Rektifikasi dan tulis di AFML"]
+    D9(["Pesawat serviceable"])
+
+    D0 --> D1
+    D1 --> DG1
+    DG1 -- tidak --> D2
+    DG1 -- ya --> D3
+    D2 --> DG2
+    D3 --> D4
+    D4 --> DG2
+    DG2 -- ya --> D8
+    DG2 -- tidak --> D5
+    D5 --> DG3
+    DG3 -- ya --> D8
+    DG3 -- tidak --> D6
+    D6 --> D8
+    D5 --> D7
+    D7 --> D8
+    D8 --> D9

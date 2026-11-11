@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "4d81426c5de1f01f",
+    "type": "split",
+    "children": [
+      {
+        "id": "017387bdc8ac2bf3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3877227b283a7318",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RimbunAIR/01-Meetings/Lembar Wawancara Staff OCC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lembar Wawancara Staff OCC"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9cc17fe262d42cba",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d90c947a6871294",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "de6cdd0f454c76b0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Penjelajah berkas"
+            }
+          },
+          {
+            "id": "4b834a861192e90d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Penelusuran"
+            }
+          },
+          {
+            "id": "cc9c152353c83ee1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Penanda"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e48cf8a624cdf390",
+    "type": "split",
+    "children": [
+      {
+        "id": "f0713ea27c13e321",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2aa57928f525ca3d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlink"
+            }
+          },
+          {
+            "id": "1bfc0b59a7bee93b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Tautan Keluar"
+            }
+          },
+          {
+            "id": "e277192fb7614159",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tag"
+            }
+          },
+          {
+            "id": "570a73e9d764970a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Semua properti"
+            }
+          },
+          {
+            "id": "d5ccc9f3030b172d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Kerangka"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Buka peralih cepat": false,
+      "graph:Buka tampilan grafik": false,
+      "canvas:Buat kanvas baru": false,
+      "daily-notes:Buka catatan hari ini": false,
+      "templates:Masukkan template": false,
+      "command-palette:Buka palet perintah": false,
+      "bases:Buat basis baru": false
+    }
+  },
+  "active": "3877227b283a7318",
+  "lastOpenFiles": [
+    "RimbunAIR/01-Meetings/Lembar Wawancara PPC Techincal Record.md",
+    "RimbunAIR/01-Meetings/Lembar Wawancara PPC & Engineer - Sesi 2.md",
+    "RimbunAIR/01-Meetings/Lembar Wawancara Chief Engineer.md",
+    "RimbunAIR/01-Meetings/2026-08-03 Chief Line Maintenance - Pak Joko.md",
+    "RimbunAIR/01-Meetings/2026-07-31 PPC Technical Record.md",
+    "RimbunAIR/01-Meetings/2026-07-27 Kickoff Nodewave x Rimbun Air.md",
+    "RimbunAIR/01-Meetings/2026-07-30 Staff Inspector Maintenance.md",
+    "RimbunAIR/01-Meetings/2026-07-29 Staff PPC & Engineering.md",
+    "RimbunAIR/00-Inbox/Ekspor ke Lucid - untuk Gama.md",
+    "Selamat datang.md",
+    "RimbunAIR/99-Templates/mom-wawancara.md",
+    "RimbunAIR/99-Templates/meeting.md",
+    "RimbunAIR/99-Templates/knowledge.md",
+    "RimbunAIR/99-Templates/decision.md",
+    "RimbunAIR/99-Templates/daily.md",
+    "RimbunAIR/99-Templates",
+    "RimbunAIR/05-Bugs",
+    "RimbunAIR/04-Daily",
+    "RimbunAIR/03-Knowledge/_sumber-mentah/Transcript Mentah - PPC Technical Record.csv",
+    "RimbunAIR/03-Knowledge/_sumber-mentah/Transcript dan Analisis Interview.md",
+    "RimbunAIR/03-Knowledge/_sumber-mentah/Sumber Riset A - Proses Bisnis ERP MRO Kargo Perintis.md",
+    "RimbunAIR/03-Knowledge/_sumber-mentah/Riset Sistem MRO Aviasi.md",
+    "RimbunAIR/03-Knowledge/_sumber-mentah/Riset Modul Eksekusi MRO.md",
+    "RimbunAIR/03-Knowledge/_sumber-mentah/ppc2.csv",
+    "RimbunAIR/03-Knowledge/_sumber-mentah/ppc1.csv",
+    "RimbunAIR/03-Knowledge/_sumber-mentah/PPC.md",
+    "RimbunAIR/03-Knowledge/_sumber-mentah/Mentahan Transcript - Staff OCC - Pak Pipit.csv",
+    "RimbunAIR/03-Knowledge/_sumber-mentah/Mentahan Transcript - Chief Engineer - Pak Joko.csv",
+    "RimbunAIR/03-Knowledge/_sumber-mentah/Inspector.md",
+    "RimbunAIR/03-Knowledge/_sumber-mentah/Flow-Proses-Maintenance-Aircraft.md",
+    "RimbunAIR/03-Knowledge/_sumber-mentah/ERP_MRO Kargo Perintis Indonesia.md",
+    "RimbunAIR/03-Knowledge/_sumber-mentah/dovetail-transcript-2026-07-30.csv",
+    "RimbunAIR/03-Knowledge/_sumber-mentah/dovetail-transcript-2026-07-30 (1).csv",
+    "RimbunAIR/03-Knowledge/_sumber-mentah/Desain Modul Sistem MRO Aviasi.md",
+    "RimbunAIR/03-Knowledge/_di-luar-scope/Proses Bisnis Kargo Perintis End-to-End.md",
+    "RimbunAIR/03-Knowledge/_di-luar-scope/Manajemen Sparepart & Supply Chain.md",
+    "Tanpa judul.canvas"
+  ]
+}

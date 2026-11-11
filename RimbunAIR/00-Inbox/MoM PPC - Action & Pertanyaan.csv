@@ -1,0 +1,20 @@
+﻿No,Jenis,Item,PIC,Target,Status
+1,Konfirmasi,Kirim MoM ini ke Pak Rian untuk dikoreksi,Eza,1 Agu 2026,Belum
+2,Minta data,Sample spreadsheet LD/ND yang dipakai sekarang,Eza,1 Agu 2026,Belum
+3,Minta data,Satu paket dokumen lengkap yang pernah diserahkan ke engineer,Eza,1 Agu 2026,Belum
+4,Minta data,Maintenance Program versi terbaru,Eza,1 Agu 2026,Belum
+5,Minta data,"Nama dan jabatan resmi Pak Rian, Pak Agus, Erod, Mas Bobi",Eza,1 Agu 2026,Belum
+6,Wawancara,Inspector (Pak Agus). Fokus ke alur penolakan dan rework,Eza,30 Jul 2026,Terjadwal
+7,Wawancara,"Engineering (Erod). Fokus ke EO, Service Letter, Maintenance Program",Eza,Minggu 2,Belum
+8,Eskalasi,Angkat isu migrasi data ke Rigen dan Hardi. Data awal hampir semuanya di luar scope migrasi,Eza,Sebelum work plan minggu 2,Belum
+9,Eskalasi,Angkat kondisi PPC satu orang ke Rigen. Berdampak ke rencana training dan UAT,Eza,Minggu 2,Belum
+10,Klarifikasi,Tanya Rafi siapa pemilik kebutuhan rakit dokumen dan repositori manual,Eza,Minggu 2,Belum
+11,Pertanyaan terbuka,"Jam terbang masuk ke LD/ND dari mana, siapa yang memasok, seberapa sering",,,Belum terjawab
+12,Pertanyaan terbuka,"Kalau inspector menolak, dokumennya diapakan dan kembali ke siapa",,,Belum terjawab
+13,Pertanyaan terbuka,Siapa yang memperbarui LD/ND setelah pekerjaan selesai,,,Belum terjawab
+14,Pertanyaan terbuka,Dokumen selesai diarsipkan di mana dan berapa lama disimpan,,,Belum terjawab
+15,Pertanyaan terbuka,Bagaimana PPC memastikan part tersedia sebelum WO diturunkan,,,Belum terjawab
+16,Pertanyaan terbuka,"Format penomoran WO seperti apa, apakah harus dipertahankan",,,Belum terjawab
+17,Pertanyaan terbuka,"Tipe resmi pesawat model klasik dan eng, beserta registrasi PK-nya",,,Belum terjawab
+18,Pertanyaan terbuka,"ADSB itu maksudnya AD dan SB, atau hal lain",,,Belum terjawab
+19,Pertanyaan terbuka,Berapa WO per bulan dan berapa lama merakit satu paket,,,Belum terjawab

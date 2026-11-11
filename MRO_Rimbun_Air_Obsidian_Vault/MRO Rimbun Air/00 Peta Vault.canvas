@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"lintas","type":"group","x":-1020,"y":180,"width":1720,"height":300,"label":"Lintas modul"},
+		{"id":"konteks","type":"group","x":-1240,"y":-560,"width":900,"height":300,"label":"Konteks"},
+		{"id":"home","type":"file","file":"00 Home.md","x":-200,"y":-520,"width":400,"height":220,"color":"6"},
+		{"id":"workflow","type":"file","file":"00_Meta/Alur Kerja Gathering & Update.md","x":320,"y":-520,"width":380,"height":220,"color":"5"},
+		{"id":"ringkasan","type":"file","file":"01_Konteks/Ringkasan Proyek.md","x":-1220,"y":-520,"width":280,"height":220},
+		{"id":"peta","type":"file","file":"01_Konteks/Peta Modul & PM.md","x":-920,"y":-520,"width":280,"height":220},
+		{"id":"req","type":"file","file":"01_Konteks/Requirements Awal REQ.md","x":-620,"y":-520,"width":260,"height":220},
+		{"id":"m3","type":"file","file":"20_M3 Production & Execution/M3 Overview.md","x":-560,"y":-160,"width":360,"height":260,"color":"4"},
+		{"id":"e2e","type":"file","file":"50_Lintas Modul/Integrasi End-to-End.md","x":-440,"y":220,"width":520,"height":240},
+		{"id":"isu","type":"file","file":"50_Lintas Modul/Isu Harmonisasi Lintas Modul.md","x":120,"y":220,"width":560,"height":240,"color":"1"},
+		{"id":"sesi","type":"file","file":"60_Sesi & Review/Log Sesi & Review.md","x":1080,"y":-410,"width":360,"height":260},
+		{"id":"ssg","type":"file","file":"40_SSG System Setting & Governance/SSG Overview.md","x":680,"y":-160,"width":360,"height":260,"color":"3"},
+		{"id":"m4","type":"file","file":"30_M4 Flight Operations Interfacing/M4 Overview.md","x":280,"y":-160,"width":360,"height":260,"color":"4"},
+		{"id":"m2","type":"file","file":"10_M2 Maintenance Programming & Planning/M2 Overview.md","x":-1360,"y":-160,"width":360,"height":260,"color":"4"},
+		{"id":"own","type":"file","file":"50_Lintas Modul/Kepemilikan Data & Batas Modul.md","x":-1010,"y":220,"width":520,"height":240}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"home","fromSide":"bottom","toNode":"m2","toSide":"top"},
+		{"id":"e2","fromNode":"home","fromSide":"bottom","toNode":"m3","toSide":"top"},
+		{"id":"e3","fromNode":"home","fromSide":"bottom","toNode":"m4","toSide":"top"},
+		{"id":"e4","fromNode":"home","fromSide":"bottom","toNode":"ssg","toSide":"top"},
+		{"id":"e5","fromNode":"home","fromSide":"right","toNode":"workflow","toSide":"left"},
+		{"id":"e6","fromNode":"m2","fromSide":"right","toNode":"m3","toSide":"left","label":"task, Check Pack, Buat WO"},
+		{"id":"e7","fromNode":"m3","fromSide":"right","toNode":"m4","toSide":"left","label":"WO, DMI Closed by WO"},
+		{"id":"e8","fromNode":"m4","fromSide":"bottom","toNode":"m2","toSide":"bottom","label":"DMI, closing AFML"},
+		{"id":"e9","fromNode":"ssg","fromSide":"bottom","toNode":"isu","toSide":"top","label":"LX-02, LX-03, LX-04"},
+		{"id":"e10","fromNode":"workflow","fromSide":"right","toNode":"sesi","toSide":"top","label":"setiap sesi"},
+		{"id":"e11","fromNode":"peta","fromSide":"right","toNode":"home","toSide":"left"}
+	]
+}

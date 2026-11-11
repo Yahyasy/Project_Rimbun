@@ -1,0 +1,45 @@
+﻿Bagian,Topik,Catatan,Status
+Info,Tanggal,29 Juli 2026,
+Info,Narasumber,"Pak Rian, PPC. Satu-satunya staf PPC di Rimbun Air.",
+Info,Dari Nodewave,Eza,
+Info,Topik,Pekerjaan harian PPC dan alur dokumen work order,
+Info,Catatan sumber,"Sebagian isi diambil dari analisis transkrip, bukan transkrip aslinya. Perlu dikoreksi Pak Rian.",Perlu konfirmasi
+Peran,Tugas PPC,"Menyiapkan dan menerbitkan dokumen kerja, lalu menyerahkannya ke engineer. Bukan penjadwalan.",Jelas
+Peran,Batas dengan Engineering,"Isi teknis pekerjaan ditentukan Engineering (Erod). PPC tidak mengarang isi, hanya menerbitkan.",Jelas
+Peran,Jumlah orang,"Hanya Pak Rian, untuk tiga model pesawat.",Jelas
+Alur,1. Pantau LD/ND,LD/ND (Last Done Next Due) berupa spreadsheet. Ini acuan utama Pak Rian untuk semua dokumen yang dia buat.,Jelas
+Alur,2. Tentukan jenis check,"Daily Check, A-Check, Phase Check, atau C-Check.",Jelas
+Alur,3. Ambil template,Tiap model pesawat punya template sendiri.,Jelas
+Alur,4. Rakit paket dokumen,"Work order, task card, dan dokumen pendukung per ATA chapter. Isian mengacu ke Maintenance Program.",Jelas
+Alur,5. Serah terima,Paket dicetak dan diserahkan fisik ke engineer. Dicatat lewat checklist dan tanda tangan.,Jelas
+Alur,6. Engineer kerjakan,"Selesai kerja, engineer tanda tangan basah dan cap.",Jelas
+Alur,7. Kembali ke PPC,Dokumen dikembalikan ke Pak Rian untuk direviu dulu.,Baru diketahui
+Alur,8. Ke Inspector,Diserahkan ke Pak Agus untuk diverifikasi dan ditandatangani. Ini tahap terakhir.,Baru diketahui
+Alur,Catatan,"Berarti ada tiga tanda tangan berlapis: engineer, PPC, inspector.",Jelas
+Kendala,Bikin WO masih copy-paste,"Instruksi disalin manual dari PDF atau Word pabrikan ke template perusahaan, satu per satu. Ini yang paling makan waktu.",Kendala utama
+Kendala,Manual teknis tersebar,"AMM dan IPC disimpan di Google Drive, diunduh manual tiap butuh. Tidak ada kontrol revisi.",Kendala
+Kendala,Kalibrasi alat tertunda,Alat yang harusnya dikalibrasi tertahan karena vendor minta dibayar di muka.,"Kendala, bukan soal teknis"
+Sistem lama,MSS,"Dibuat internal oleh Mas Bobi. Aslinya untuk gudang dan inventory, bukan maintenance planning.",Jelas
+Sistem lama,Kenapa tidak dipakai,"Waktu dipaksa mengakomodasi alur maintenance, banyak yang tidak cocok dan muncul bug.",Jelas
+Sistem lama,Implikasi,Kemungkinan MSS tetap dipakai untuk inventory. Perlu diperjelas apakah sistem baru harus terhubung ke sana.,Perlu ditanya
+Dokumen,AD (Airworthiness Directive),Wajib dikerjakan.,Jelas
+Dokumen,SB (Service Bulletin),Opsional.,Jelas
+Dokumen,SL (Service Letter),"Sifatnya informatif, tidak menciptakan pekerjaan.",Jelas
+Dokumen,EO (Engineering Order),"Diterbitkan Engineering, bukan PPC.",Jelas
+Dokumen,Maintenance Program,"Buku panduan. Jadi acuan mengisi WO, termasuk kode-kodenya. Diperbarui setahun sekali.",Jelas
+Dokumen,ADSB,"Dugaan sementara ini singkatan AD dan SB, bukan ADS-B avionik.",Perlu konfirmasi
+Armada,Satuan interval,Semua dalam flight hours.,Jelas
+Armada,Model klasik,500 FH. Tipe resminya belum diketahui.,Perlu data
+Armada,ATR,1500 FH,Jelas
+Armada,Model eng,10000 FH. Tipe resminya belum diketahui. Angkanya juga perlu dicek ulang.,Perlu data
+Armada,A-Check,730 FH,Jelas
+Armada,C-Check,Disebut sebagai tingkat berat. Intervalnya belum diketahui.,Perlu data
+Tanda tangan,Kondisi sekarang,"Semua masih basah di kertas, pakai cap. Belum ada tanda tangan elektronik.",Jelas
+Harapan ke sistem,Dashboard LD/ND,"Bisa lihat sisa jam atau cycle secara otomatis, jadi bisa langsung rencanakan.",
+Harapan ke sistem,Generator WO,"WO dan task card bisa langsung dibuat dari master data, tidak perlu copy-paste lagi.",
+Harapan ke sistem,Repositori dokumen,"Satu tempat terpusat untuk AMM, IPC, dan Maintenance Program.",
+Harapan ke sistem,Alert kedaluwarsa,Peringatan sebelum alat ukur atau lisensi habis masa berlakunya.,
+Risiko,Data awal tidak masuk scope migrasi,"LD/ND ada di spreadsheet dan dokumen di kertas. Kontrak hanya mencakup migrasi dari database sistem lama, dan itu pun baru dijadwalkan setelah go-live.",Perlu diangkat ke PM
+Risiko,PPC hanya satu orang,"Kalau Pak Rian tidak cocok dengan sistemnya, tidak ada pengguna lain yang bisa menyelamatkan adopsi. Tidak ada juga pembanding untuk mengecek pemahaman kita soal prosesnya.",Perlu diangkat ke PM
+Risiko,Kebutuhan utama lintas modul,"Merakit dokumen dan repositori manual sebagian masuk modul Publication, yang bukan scope kita.",Perlu dibahas dengan Tech Lead
+Risiko,Maintenance Program berubah tiap tahun,"Sistem perlu tahu WO dibuat berdasarkan versi MP yang mana, supaya audit trail bisa dipertanggungjawabkan.",Untuk PRD

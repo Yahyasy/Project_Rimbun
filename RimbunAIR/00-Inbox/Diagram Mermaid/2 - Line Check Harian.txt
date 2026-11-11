@@ -1,0 +1,29 @@
+flowchart TD
+    START(["Pesawat dijadwalkan terbang"])
+    subgraph ENGB["Engineer duty"]
+        L1["Ambil tools dari store - fuel drain, pressure gauge"]
+        L2["Pre-flight check"]
+        L3["Isi form pre-flight"]
+        L4["Kembalikan tools"]
+        L5["Transit check saat transit"]
+        L6["Daily check - brake wear, tire pressure"]
+        L7["Weekly check"]
+        L8["Isi AFML dan create record MSS"]
+        BG{"Ada defect?"}
+    end
+    FLY(["Pesawat terbang"])
+    DMI["Masuk proses DMI"]
+    DONE(["Selesai"])
+
+    START --> L1
+    L1 --> L2
+    L2 --> L3
+    L3 --> L4
+    L4 --> FLY
+    FLY --> L5
+    L5 --> L6
+    L6 --> L7
+    L7 --> L8
+    L8 --> BG
+    BG -- ya --> DMI
+    BG -- tidak --> DONE

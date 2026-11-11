@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(perl -0pi -e 's/tipe: decision\\\\n---/tipe: decision\\\\nstatus: open\\\\n---/; s/Terkait meeting: \\\\[\\\\[01-Meetings\\\\/Nama-Meeting\\\\]\\\\]/Terkait meeting: [[YYYY-MM-DD Nama Meeting]]/' decision.md)",
+      "Bash(python3 -)",
+      "Bash(mkdir -p \"03-Knowledge/_di-luar-scope\" \"02-Decisions/_di-luar-scope\")",
+      "Bash(mv \"03-Knowledge/Proses Bisnis Kargo Perintis End-to-End.md\" \"03-Knowledge/Manajemen Sparepart & Supply Chain.md\" \"03-Knowledge/Konteks Operasi Perintis Papua & Offline-First.md\" \"03-Knowledge/Benchmark Vendor ERP-MRO Aviasi.md\" \"03-Knowledge/_di-luar-scope/\")",
+      "Bash(mv \"02-Decisions/Decision - Standar Cargo Messaging.md\" \"02-Decisions/Decision - Build vs Buy Sistem ERP-MRO.md\" \"02-Decisions/Decision - Scope & Urutan Modul Implementasi.md\" \"02-Decisions/_di-luar-scope/\")",
+      "WebSearch",
+      "WebFetch(domain:www.rimbunair.com)",
+      "Bash(python3 -c ' *)",
+      "Read(//private/tmp/glostest/**)",
+      "Bash(python3 /tmp/link_glos.py --apply)",
+      "Read(//private/tmp/**)",
+      "Bash(python3 -c \"import docx; print\\('python-docx OK'\\)\")",
+      "Bash(python3 -c \"import pip; print\\('pip ok'\\)\")",
+      "Read(//Users/ezaputralf/Desktop/**)"
+    ]
+  }
+}
